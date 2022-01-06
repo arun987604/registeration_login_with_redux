@@ -1,6 +1,6 @@
 
 const mongoose  = require('mongoose');
-const uri = "mongodb+srv://koilaa:koilaa@devconn.oupu5.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const uri = ADD YOUR OWN URI GIVEN BY MONGO;
 const connectDB = async()=>{
   try{
       await mongoose.connect(uri,{useNewUrlParser: true,useUnifiedTopology: true, useFindAndModify:false,useCreateIndex:true});
